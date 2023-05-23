@@ -10,3 +10,4 @@ FROM alpine:3.15
 
 COPY --from=build /go/src/github.com/alexellis/firecracker-init-lab/init/init /init
 
+RUN apk add --no-cache curl
