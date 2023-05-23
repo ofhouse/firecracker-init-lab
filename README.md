@@ -6,16 +6,16 @@ Build a microVM from a container image
 
 ## Pre-reqs
 
-* A bare-metal Linux host - [where can you get bare metal?](https://github.com/alexellis/awesome-baremetal#bare-metal-cloud)
-* Or a VM that supports nested virtualisation such as on [DigitalOcean](https://m.do.co/c/8d4e75e9886f) or GCP. 
-* Docker installed
+- A bare-metal Linux host - [where can you get bare metal?](https://github.com/alexellis/awesome-baremetal#bare-metal-cloud)
+- Or a VM that supports nested virtualisation such as on [DigitalOcean](https://m.do.co/c/8d4e75e9886f) or GCP.
+- Docker installed
 
 Browse:
 
-* [Go init process](/init/main.go)
-* [Makefile](/Makefile)
-* [boot.sh](/boot.sh) - commands to start MicroVM
-* [Dockerfile](/Dockerfile) - for building the root filesystem
+- [Go init process](/init/main.go)
+- [Makefile](/Makefile)
+- [boot.sh](/boot.sh) - commands to start MicroVM
+- [Dockerfile](/Dockerfile) - for building the root filesystem
 
 ## Usage
 
@@ -95,3 +95,7 @@ export arch="x86_64"
 [Subscribe & remind](https://www.youtube.com/watch?v=CYCsa5e2vqg)
 
 If you can't make it live, then you'll be able to jump onto the replay with your morning coffee.
+
+## Resources
+
+- [Firecracker API Spec](https://raw.githubusercontent.com/firecracker-microvm/firecracker/main/src/api_server/swagger/firecracker.yaml)

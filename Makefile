@@ -48,3 +48,12 @@ start:
 # Sends commands to boot the firecracker process started via "make start"
 boot:
 	 sudo ./boot.sh
+
+shutdown:
+	sudo ./shutdown.sh
+
+snapshot:
+	sudo ./snapshot.sh
+
+restore:
+	sudo ./restore.sh
